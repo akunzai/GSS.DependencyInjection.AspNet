@@ -56,8 +56,9 @@ namespace OwinSample
 
         private void ConfigureServices(ServiceCollection services)
         {
-            services.AddMvcControllers(Assembly.GetExecutingAssembly());
-            services.AddApiControllers(Assembly.GetExecutingAssembly());
+            var assembly = Assembly.GetExecutingAssembly();
+            services.AddMvcControllers(assembly);
+            services.AddApiControllers(assembly);
             var systemClock = _configuration.GetValue<DateTime?>("SystemClock");
             if (systemClock.HasValue)
             {
