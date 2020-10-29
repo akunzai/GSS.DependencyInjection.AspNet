@@ -17,7 +17,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EDF85910-C485-4BC2-A88E-465FF986D82A}"
 	ProjectSection(SolutionItems) = preProject
 		src\Directory.Build.props = src\Directory.Build.props
-		src\Directory.Build.targets = src\Directory.Build.targets
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSS.DependencyInjection.Mvc", "src\GSS.DependencyInjection.Mvc\GSS.DependencyInjection.Mvc.csproj", "{2D6E8744-6E84-4432-BA37-658CEF101443}"
