@@ -1,8 +1,13 @@
 # GSS.DependencyInjection.AspNet
 
-Integrate ASP.NET MVC/WebApi with [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection)
+[![Build Status][ci-badge]][ci] [![Code Coverage][codecov-badge]][codecov]
 
-[![Build status](https://ci.appveyor.com/api/projects/status/5wal66ywv8r2ipb3?svg=true)](https://ci.appveyor.com/project/akunzai/gss-dependencyinjection-aspnet)
+[ci]: https://github.com/akunzai/GSS.DependencyInjection.AspNet/actions?query=workflow%3ACI
+[ci-badge]: https://github.com/akunzai/GSS.DependencyInjection.AspNet/workflows/CI/badge.svg
+[codecov]: https://codecov.io/gh/akunzai/GSS.DependencyInjection.AspNet
+[codecov-badge]: https://codecov.io/gh/akunzai/GSS.DependencyInjection.AspNet/branch/main/graph/badge.svg?token=EO9CL9XXRU
+
+Integrate ASP.NET MVC/WebApi with [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection)
 
 ## NuGet Packages
 
