@@ -80,13 +80,13 @@
       <Version>5.2.7</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder">
-      <Version>3.1.9</Version>
+      <Version>5.0.0</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration.Json">
-      <Version>3.1.9</Version>
+      <Version>5.0.0</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection">
-      <Version>3.1.9</Version>
+      <Version>5.0.1</Version>
     </PackageReference>
     <PackageReference Include="MSBuild.Microsoft.VisualStudio.Web.targets">
       <Version>14.0.0.3</Version>
@@ -94,11 +94,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\GSS.DependencyInjection.Mvc\GSS.DependencyInjection.Mvc.csproj">
-      <Project>{2d6e8744-6e84-4432-ba37-658cef101443}</Project>
+      <Project>{a71fe104-822b-44aa-b236-a66b15f52feb}</Project>
       <Name>GSS.DependencyInjection.Mvc</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\src\GSS.DependencyInjection.WebApi\GSS.DependencyInjection.WebApi.csproj">
-      <Project>{d6fa9962-7f38-4efc-9b73-84ac7de7b852}</Project>
+      <Project>{805dbe86-5582-49b3-8e3c-c0fd3d5ae3cb}</Project>
       <Name>GSS.DependencyInjection.WebApi</Name>
     </ProjectReference>
     <ProjectReference Include="..\SampleShared\SampleShared.csproj">
