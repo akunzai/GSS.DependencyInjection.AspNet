@@ -5,7 +5,6 @@
     <Description>Integrate ASP.NET MVC with Microsoft.Extensions.DependencyInjection</Description>
     <NoWarn>$(NoWarn);NU1603;NU1701</NoWarn>
     <RootNamespace>GSS.DependencyInjection</RootNamespace>
-    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
