@@ -92,7 +92,7 @@
       <Version>14.0.0.3</Version>
     </PackageReference>
     <PackageReference Include="System.Text.Encodings.Web">
-      <Version>5.0.1</Version>
+      <Version>6.0.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
