@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net462</TargetFramework>
     <Description>Integrate ASP.NET Web API with Microsoft.Extensions.DependencyInjection</Description>
     <NoWarn>$(NoWarn);NU1603;NU1701</NoWarn>
     <RootNamespace>GSS.DependencyInjection</RootNamespace>
@@ -10,9 +10,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.8" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
-    <PackageReference Include="System.Net.Http" Version="4.3.4" />
-    <PackageReference Include="System.Text.Encodings.Web" Version="4.7.2" />
-    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
   </ItemGroup>
 
 </Project>
