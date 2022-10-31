@@ -38,13 +38,6 @@ jobs:
           dotnet build -c Release
       - name: Build Samples
         run: msbuild samples/Samples.sln -noLogo -verbosity:minimal -restore -p:Configuration=Release
-      - name: Scan vulnerable packages
-        if: matrix.os == 'ubuntu-latest'
-        # https://github.com/dotnet/sdk/issues/16852
-        run: |
-          dotnet restore
-          dotnet list package --vulnerable --include-transitive | tee vulnerable.out
-          test `grep -cm 1 'has the following vulnerable packages' vulnerable.out` = 0
       - name: Test
         run: |
           dotnet test --collect:"XPlat Code Coverage"
