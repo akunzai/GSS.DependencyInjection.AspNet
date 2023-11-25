@@ -5,6 +5,7 @@ using GSS.DependencyInjection.Testing.Fakes;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
+// ReSharper disable once CheckNamespace
 namespace GSS.DependencyInjection.MVC.Tests
 {
     public class MvcDependencyResolverTest
