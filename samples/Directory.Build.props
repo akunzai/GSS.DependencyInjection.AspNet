@@ -3,9 +3,5 @@
   <PropertyGroup>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
-  
-  <ItemGroup Condition=" '$(OS)' != 'Windows_NT' ">
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="All"/>
-  </ItemGroup>
 
 </Project>
